@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://system.openfaas.dev.msit.io
+functions:
+  scim-target-system-mock:
+    lang: node10-express
+    handler: ./scim-target-system-mock
+    image: mulesoft-itops-org/scim-target-system-mock:latest
