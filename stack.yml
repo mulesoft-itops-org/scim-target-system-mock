@@ -8,4 +8,4 @@ functions:
     handler: ./scim-target-system-mock
     image: mulesoft-itops-org/scim-target-system-mock:latest
     labels:
-      - com.openfaas.scale.min: 2
+      "com.openfaas.scale.min": "2"
